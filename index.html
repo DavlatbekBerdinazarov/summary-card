@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="container-box">
+        
+      <div class="result-box">
+        <!-- your result -->
+        <div class="your-result">
+          <h2 class="warm-color text">Your Result</h2>
+          <!-- circle disign -->
+          <div class="result-number">
+            <h1 class="circel-result">76</h1>
+            <span class="warm-color result-text">of 100</span>
+          </div>
+        </div>
+        <div class="result-comment">
+          <h1 class="main-comment">Great</h1>
+          <p class="paragraph warm-color">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+
+      </div>
+
+      <!-- Summary -->
+      <div class="summary">
+        <h2 class="summary-title">Summary</h2>
+        <div class="summary-table">
+          <div class="summary-table__item react-body">
+            <div class="category-types react">
+              <img src="" alt="">
+              <h4 id="category"></h4>
+            </div>
+            <div>
+              <h4><span class="score1"></span><span class="score2">/ 100</span></h4>
+            </div>
+          </div>
+          <div class="summary-table__item memory-body">
+            <div class="category-types memory">
+              <img src="" alt="">
+              <h4 id="category"></h4>
+            </div>
+            <div>
+              <h4><span class="score1"></span><span class="score2">/ 100</span></h4>
+            </div>
+          </div>
+          <div class="summary-table__item verbal-body">
+            <div class="category-types verbal">
+              <img src="" alt="">
+              <h4 id="category"></h4>
+            </div>
+            <div>
+              <h4><span class="score1"></span><span class="score2">/ 100</span></h4>
+            </div>
+          </div>
+          <div class="summary-table__item visible-body">
+            <div class="category-types visible">
+              <img src="" alt="">
+              <h4 id="category"></h4>
+            </div>
+            <div>
+              <h4><span class="score1"></span><span class="score2">/ 100</span></h4>
+            </div>
+          </div>
+          <button onclick="active()" class="continue-button">Continue</button>
+      </div>
+    </div>
+    
+  </div>
+  
+  <div style="position: fixed; bottom: 0;" class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Davlatbek Berdinazarov</a>.
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
